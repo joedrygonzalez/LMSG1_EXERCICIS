@@ -1,0 +1,60 @@
+h1 {
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+table caption {
+    color: goldenrod;
+    font-size: 25px;
+}
+
+table,
+th,
+tr,
+td {
+    border: 1px solid;
+}
+
+th {
+    width: 100px;
+    text-align: center;
+    background-color: #00f500;
+}
+
+td.SI {
+    background-color: blue;
+}
+
+td.LMSGI {
+    background-color: greenyellow;
+}
+
+td.PED {
+    background-color: salmon;
+}
+
+td.TUT {
+    background-color: green;
+}
+
+td.BD {
+    background-color: #01c201;
+}
+
+td.AN {
+    background-color: aquamarine;
+}
+
+td.SGE {
+    background-color: blueviolet;
+}
+
+td.IPO {
+    background-color: red;
+}
