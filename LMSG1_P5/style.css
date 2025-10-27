@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+section.quiets {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+input#email, #nomCognom {
+    width: 250px;
+}
+
+input#edat {
+    width: 100px;
+}
+
+textarea {
+    margin: 5px;
+    width: 350px;
+    height: 150px;
+}

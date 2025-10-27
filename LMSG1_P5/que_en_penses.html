@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que en penses?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Subscriu-te al noticiari ITIC Barcelona</h1>
+    <h4>Primer, explica'ns qui ets</h4>
+    <form action="./que_en_penses_enviat.html">
+        <section class="quiets">
+            <section>
+                <label for="email">Email</label><br>
+                <label for="nomCognom">Nom i cognoms</label><br>
+                <label for="edat">Edat</label>
+            </section>
+            <section>
+                <input type="email" id="email" name="email"><br>
+                <input type="text" id="nomCognom" name="nomCognom"><br>
+                <input type="number" id="edat" name="edat">
+            </section>
+        </section>
+        <h4>Quin cicle estàs estudiant?</h4>
+        <input type="radio" id="asix" value="ASIX" name="cicles" checked>
+        <label for="asix" >ASIX</label><br>
+        <input type="radio" id="dam" value="DAM" name="cicles">
+        <label for="dam">DAM</label><br>
+        <input type="radio" id="daw" value="DAW" name="cicles">
+        <label for="daw">DAW</label><br>
+        <label for="curs">I en quin curs?</label>
+        <select name="curs" id="curs">
+            <option value="Primer">Primer</option>
+            <option value="Segon">Segon</option>
+        </select>
+
+        <h4>Marca els temes que vulguis estar sempre al dia!</h4>
+        <input type="checkbox" name="IA" id="IA" value="Intel·ligència artificial" checked>
+        <label for="IA">Intel·ligència artificial</label><br>
+        <input type="checkbox" name="computacio" id="computacio" value="Computació quàntica">
+        <label for="computacio">Computació quàntica</label><br>
+        <input type="checkbox" name="supercomputadors" id="supercomputadors" value="Supercomputadors">
+        <label for="supercomputadors">Supercomputadors</label><br>
+        <input type="checkbox" name="algorismia" id="algorismia" value="Recerca en alforísmia">
+        <label for="algorismia">Recerca en algorísmia</label><br>
+        <p><label for="temes">Hi ha algun tema més que t'interessi? Explica'ns-ho!</label></p>
+        <textarea name="temes" id="temes" placeholder="També m'agradaria saber les últimes novetats sobre..."></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
