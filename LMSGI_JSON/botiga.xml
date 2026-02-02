@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<botiga>
+    <productes>
+        <producte id="P001" categoria="Electrònica">
+            <nom>Portàtil Gaming ASUS ROG</nom>
+            <descripcio>Portàtil de alta rendiment amb processador Intel i7 i targeta gràfica RTX 3080</descripcio>
+            <preu moneda="EUR">1299.99</preu>
+            <disponibilitat>En estoc</disponibilitat>
+            <imatge>https://example.com/images/laptop-gaming.jpg</imatge>
+        </producte>
+        <producte id="P002" categoria="Accessoris">
+            <nom>Ratolí Sense Fils Logitech MX Master 3S</nom>
+            <descripcio>Ratolí ergonòmic amb connexió Bluetooth de múltiples dispositius</descripcio>
+            <preu moneda="EUR">99.99</preu>
+            <disponibilitat>Esgotat</disponibilitat>
+            <imatge>https://example.com/images/mouse-logitech.jpg</imatge>
+        </producte>
+    </productes>
+</botiga>
